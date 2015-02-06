@@ -1,5 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Megrim|Roboto+Slab:700,400);
 
+.image-frame {
+  padding: 10px;
+  border: solid 1px #DDDDDD;
+  border-radius: 5px;
+  width: 40%;
+  height: auto;
+}
+
 body {
   max-width: 900px;
   display: block;
