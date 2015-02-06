@@ -1,17 +1,42 @@
 @import url(http://fonts.googleapis.com/css?family=Megrim|Roboto+Slab:700,400);
 
+nav > ul {
+  padding: 0;
+}
+
+nav > ul li {
+  list-style-type: none;
+}
+
 .image-frame {
   padding: 10px;
   border: solid 1px #DDDDDD;
   border-radius: 5px;
   width: 40%;
   height: auto;
+  display: block;
+  margin: auto;
 }
 
-body {
+header {
   max-width: 900px;
   display: block;
   margin: auto;
+  padding: 0 80px;
+  /*background-color: rgba(255, 19, 139, 0.1);*/
+  /*border-radius: 20px;*/
+}
+
+#layout {
+  max-width: 900px;
+  display: block;
+  margin: auto;
+  padding: 0 80px;
+  /*background-color: rgba(255, 19, 139, 0.1);*/
+  /*border-radius: 20px;*/
+}
+
+body {
   background-image: url('../images/gplaypattern.png');
 
   font-family: 'Roboto Slab', serif;
@@ -23,6 +48,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Megrim', cursive;
   margin: 24px 0 14px;
+  /*text-align: center;*/
 }
 
 h2, h3, h4, h5, h6 {
@@ -30,8 +56,10 @@ h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 54px;
+  font-size: 6em;
   color: rgb(255, 19, 139);
+  text-align: center;
+  text-decoration: underline;
 }
 
 h2 {
