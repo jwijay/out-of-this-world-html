@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Megrim|Roboto+Slab:700,400);
+
+body {
+  max-width: 900px;
+  display: block;
+  margin: auto;
+  background-image: url('../images/gplaypattern.png');
+
+  font-family: 'Roboto Slab', serif;
+}
+
+#wrapper {
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Megrim', cursive;
+  margin: 24px 0 14px;
+}
+
+h2, h3, h4, h5, h6 {
+  border-bottom: 2px dotted gray;
+}
+
+h1 {
+  font-size: 54px;
+  color: rgb(255, 19, 139);
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+p {
+  line-height: 24px;
+}
+
+a {
+  color: rgb(229, 33, 133);
+  transition: all .4s linear 0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(229, 33, 133, .4);
+}
+
